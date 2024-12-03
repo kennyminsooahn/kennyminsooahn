@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fancify My Text</title>
+    <script src="fancifymytext.js" defer></script>
+</head>
+<body>
+    <h1>Fancify My Text</h1>
+	<!---A field for users to enter large multi line amounts of text(4x30)-->
+    <fieldset>
+        <legend>Text</legend>
+        <textarea id="userText" rows="4" cols="30"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Fancify</legend>
+		<!--bigger button-->
+        <button id="biggerBtn">Bigger!</button>
+        <br>
+		<!--Fancify button-->
+        <input type="radio" id="fancyShmancy" name="fancy" value="fancy">
+        <label for="Fancy Shmancy">FancyShmancy</label>
+        <br>
+		<!--Boring button-->
+        <input type="radio" id="boringBetty" name="fancy" value="boring">
+        <label for="Boring Betty">BoringBetty</label>
+    </fieldset>
+	<!--Moo button-->
+    <button id="mooBtn">Moo</button>
+</body>
+</html>
